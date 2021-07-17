@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<style>
+.google {
+    position: absolute;
+  width: 300px;
+  height: 200px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+}
+input{
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    height: 20px;
+    width: 500px;
+    border:1px solid #eaeaea;
+    outline:none;
+    position: relative;
+}
+span{
+    position: absolute;
+    width: 50%;
+  height: 100%;
+  top: 0;
+  left:300px;
+}
+input:hover{
+    border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+input:focus{
+    border-color:#4d90fe;
+}
+
+input[type="submit"] {
+    border-radius: 7px;
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #757575;
+    cursor: default;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100px;
+    padding: 0 16px;
+    height:40px;
+    position:absolute;
+  top: 70px;
+  right: -150px;
+}
+input[type="submit"]:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
+input[type="chance"] {
+    border-radius: 7px;
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #757575;
+    cursor: default;
+    font-size: 14px;
+    font-weight: bold;
+    width: 110px;
+    padding: 0 16px;
+    height:40px;
+    position:absolute;
+  top: 70px;
+  right: -300px;
+
+}
+input[type="chance"]:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+.main{
+    position: absolute;
+  width: 100px;
+  height:50px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin:20px 0 0 -300px;
+}
+#search {
+    
+    width: 00px;
+    padding: 0 16px;
+    height:40px;
+    position:absolute;
+  top: 540px;
+  right: 400px;
+}
+#start {
+    list-style-type: none;
+  background-color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  
+}
+
+li {
+    float: left;
+    display: block;
+    text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: yellow;
+}
+
+
+
+</style>
+<div class = "google">
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Error"></img>
+</div>
+<div class="main">
+    <input type="text" />
+    <input type="submit" value="Search">
+    </div>
+    <div class="main">
+        <input type="text" />
+        <input type="chance" value="I'm feeling lucky">
+        </div>
+        <span class="material-icons" id = "search">&#xE8B6;</span>
+</body>
+
+<footer>
+    <ul id = "start">
+    <li><a href="https://ads.google.com/intl/fr_ca/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Ads</a></li>   
+    <li><a href = "https://smallbusiness.withgoogle.com/intl/en_ca/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=CA#!/">Enterprise</a></li> 
+    <li><a href = "https://www.google.com/search/howsearchworks/?fg=1">How does the search engine works</a></li>  
+    <li>Confidential</li>    
+    <li>User Conditions</li> 
+    <li>Settings</li>  
+</ul>
+</footer>
+</html>
